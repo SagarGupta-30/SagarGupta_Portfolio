@@ -1,4 +1,4 @@
-# ⚡ Sagar Gupta — 3D Interactive Developer Portfolio
+ Sagar Gupta —  Portfolio
 
 An immersive, interactive 3D developer portfolio powered by **Three.js** and vanilla web technologies. Features smooth character-based exploration, camera following, path navigation, glassmorphism UI panels, post-processing bloom effects, and dynamic data binding from `config.json`.
 
