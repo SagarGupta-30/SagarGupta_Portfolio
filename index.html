@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Sagar Gupta | Software Developer &amp; Open Source Contributor</title>
+    <meta name="description" content="Sagar Gupta — Software Developer &amp; Open Source Contributor. Explore my interactive 3D portfolio featuring ElevateCV AI and CareerVerse AI.">
+    <meta name="author" content="Sagar Gupta">
+    <meta name="keywords" content="Sagar Gupta, Software Developer, Open Source, ElevateCV AI, CareerVerse AI, AI, Portfolio, Three.js, Web Development">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sagar Gupta | Software Developer &amp; Open Source Contributor">
+    <meta property="og:description" content="Explore Sagar Gupta's interactive 3D developer portfolio. Software Developer &amp; Open Source Contributor.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://sagar-gupta.vercel.app">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sagar Gupta | Full Stack Developer &amp; AI Enthusiast">
+    <meta name="twitter:description" content="Explore Sagar Gupta's interactive 3D developer portfolio.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Favicon (URI-safe SVG data URI) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+        <div class="loading-text">Initializing Portfolio...</div>
+    </div>
+
+    <div id="intro-overlay">
+        <div class="intro-content">
+            <div id="terminal-text"></div>
+            <button id="start-btn" class="hidden">Enter Experience</button>
+        </div>
+    </div>
+
+    <div id="ui-layer" class="hidden">
+        <div id="header">
+            <h1 id="ui-name">Sagar Gupta</h1>
+            <p id="ui-role">Software Developer &amp; Open Source Contributor</p>
+        </div>
+
+        <div id="scroll-hint">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>SCROLL / DRAG TO EXPLORE</p>
+        </div>
+
+        <div id="zone-indicator">ZONE: INTRO</div>
+
+        <div id="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <div class="dots-container" id="dots-container">
+                </div>
+        </div>
+
+        <div id="content-panel" class="panel hidden">
+            <div class="panel-content">
+                </div>
+        </div>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

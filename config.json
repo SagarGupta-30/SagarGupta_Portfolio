@@ -1,0 +1,312 @@
+{
+  "personal": {
+    "name": "Sagar Gupta",
+    "title": "Software Developer & Open Source Contributor",
+    "avatar": "SG",
+    "tagline": "Building ideas into digital experiences.",
+    "description": "I love turning ideas into working software. I'm a Computer Science student, software developer and open-source contributor exploring the intersection of full-stack development, AI and technology.\n\nFrom building applications to contributing to open-source communities, I'm always looking for opportunities to learn, experiment and create something meaningful.",
+    "intro_text": [
+      "INITIALIZING DEVELOPER PROFILE...",
+      "SAGAR GUPTA",
+      "Software Developer & Open Source Contributor",
+      "Building ideas into digital experiences."
+    ],
+    "highlights": [
+      "Google Student Ambassador 2026",
+      "Google Summer of Code 2026 Contributor",
+      "GirlScript Summer of Code 2026 Contributor & Ambassador",
+      "Computer Science & Engineering — Class of 2029"
+    ],
+    "stats": [
+      {
+        "label": "Open Source",
+        "value": "GSoC & GSSoC"
+      },
+      {
+        "label": "Community",
+        "value": "GSA 2026"
+      },
+      {
+        "label": "Graduation",
+        "value": "2029"
+      }
+    ]
+  },
+  "about": {
+    "heading": "More than just writing code.",
+    "paragraphs": [
+      "Hey! I'm Sagar Gupta, a Computer Science student at PW Institute of Innovation, Bangalore.",
+      "I'm passionate about building software, understanding how technology works behind the scenes and turning interesting ideas into useful digital products.",
+      "My journey into development started with curiosity about how websites and applications work. That curiosity gradually grew into an interest in backend engineering, full-stack development, AI-powered applications and open-source software.",
+      "I enjoy learning by building. Whether it's designing APIs, working with databases, experimenting with AI or exploring new technologies, I like understanding the complete picture rather than just writing code that works.",
+      "Beyond development, I've explored the open-source ecosystem and student technology communities through GirlScript Summer of Code and Google Summer of Code.",
+      "I'm still learning, experimenting and figuring things out — and that's what makes this journey exciting."
+    ],
+    "highlights": [
+      "Based in Bangalore, India",
+      "Computer Science student, graduating in 2029",
+      "Interested in software engineering, backend development and AI",
+      "Open-source contributor",
+      "Always curious about new technologies and ideas"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Google Student Ambassador",
+      "company": "Google",
+      "period": "2026",
+      "description": "An opportunity to explore Google's technology ecosystem, engage with student communities and learn more about emerging technologies.",
+      "highlights": [
+        "Explored Google's AI tools and technology ecosystem.",
+        "Promoted awareness and exploration of Google AI tools.",
+        "Visited the Google office and interacted with mentors.",
+        "Gained exposure to the technology and developer community."
+      ]
+    },
+    {
+      "title": "Contributor & Ambassador",
+      "company": "GirlScript Summer of Code",
+      "period": "May – August 2026",
+      "description": "Participated in the open-source ecosystem through GirlScript Summer of Code.",
+      "highlights": [
+        "Explored collaborative software development.",
+        "Worked within the open-source contribution ecosystem.",
+        "Contributed to Nyay Setu.",
+        "Developed a deeper understanding of Git, GitHub and collaborative workflows."
+      ],
+      "link": {
+        "label": "Project Contribution (Nyay Setu)",
+        "url": "https://nyaysetu-lovat.vercel.app/"
+      }
+    },
+    {
+      "title": "Open Source Contributor",
+      "company": "Google Summer of Code (GSoC 2026) — AOSSIE-Org",
+      "period": "2026",
+      "description": "Explored participating organizations and their projects and contributed to an open-source project.",
+      "highlights": [
+        "Contributed to BabyNest under AOSSIE-Org with a merged pull request."
+      ],
+      "link": {
+        "label": "BabyNest Pull Request #254",
+        "url": "https://github.com/AOSSIE-Org/BabyNest/pull/254#issuecomment-6101524316"
+      }
+    }
+  ],
+  "community": {
+    "heading": "Building beyond the classroom.",
+    "description": "My work isn't limited to academic projects. I'm interested in contributing to communities, exploring technology and learning through collaboration.",
+    "sections": [
+      {
+        "title": "Open Source",
+        "content": "Participating in GirlScript Summer of Code 2026 and Google Summer of Code 2026 helped me explore collaborative development and the open-source ecosystem.",
+        "links": [
+          {
+            "label": "Nyay Setu (GSSoC)",
+            "url": "https://nyaysetu-lovat.vercel.app/"
+          },
+          {
+            "label": "BabyNest PR #254 (GSoC)",
+            "url": "https://github.com/AOSSIE-Org/BabyNest/pull/254#issuecomment-6101524316"
+          }
+        ]
+      },
+      {
+        "title": "Developer Community",
+        "content": "Through the Google Student Ambassador program, I explored Google's AI ecosystem, engaged with mentors and promoted awareness of emerging technologies among students.",
+        "links": []
+      },
+      {
+        "title": "Continuous Learning",
+        "content": "I regularly explore backend development, databases, AI applications and software engineering concepts through hands-on experimentation.",
+        "links": []
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "ElevateCV AI",
+      "subtitle": "AI-Powered Resume Builder & Analyzer",
+      "description": "An AI-oriented resume application designed to help users create, manage and analyze their resumes.",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=600&q=80",
+      "features": [
+        "User authentication and account management",
+        "Resume management APIs",
+        "Resume analysis workflows",
+        "Backend API development",
+        "Database integration"
+      ],
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "REST APIs",
+        "JWT"
+      ],
+      "gradient": "linear-gradient(135deg, rgba(0, 210, 255, 0.18), rgba(100, 80, 255, 0.12))",
+      "url": "https://elevatecv-ai-rose.vercel.app/",
+      "github": "https://github.com/SagarGupta-30/elevatecv-ai"
+    },
+    {
+      "name": "CareerVerse AI",
+      "subtitle": "AI-Powered Career Simulation Platform",
+      "description": "CareerVerse AI is an immersive AI-powered career simulation platform designed to help students explore future careers through real-world decision-making experiences.",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80",
+      "features": [
+        "Experience real job scenarios",
+        "Make important career decisions",
+        "Analyze skill alignment",
+        "Explore future salary insights",
+        "Receive AI-generated career reports"
+      ],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Supabase",
+        "JWT",
+        "Git",
+        "GitHub"
+      ],
+      "gradient": "linear-gradient(135deg, rgba(0, 210, 255, 0.18), rgba(0, 255, 200, 0.12))",
+      "url": "https://career-verse-ai.vercel.app/",
+      "github": "https://github.com/SagarGupta-30/CareerVerse-AI-"
+    }
+  ],
+  "skills_heading": "Tools I use. Technologies I explore.",
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        { "name": "JavaScript" },
+        { "name": "Java" },
+        { "name": "C" },
+        { "name": "C++" },
+        { "name": "Python" }
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "items": [
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "Bootstrap" },
+        { "name": "Tailwind CSS" },
+        { "name": "Next.js" },
+        { "name": "React" }
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "items": [
+        { "name": "Node.js" },
+        { "name": "Express.js" },
+        { "name": "REST API development" }
+      ]
+    },
+    {
+      "category": "Databases & ORM",
+      "items": [
+        { "name": "MongoDB" },
+        { "name": "PostgreSQL" },
+        { "name": "Supabase" },
+        { "name": "Prisma" }
+      ]
+    },
+    {
+      "category": "AI & Emerging Technologies",
+      "items": [
+        { "name": "Retrieval-Augmented Generation (RAG)" },
+        { "name": "Embeddings" },
+        { "name": "AI-powered application development" },
+        { "name": "AI agents and workflows" }
+      ]
+    },
+    {
+      "category": "Developer Tools",
+      "items": [
+        { "name": "Git" },
+        { "name": "GitHub" },
+        { "name": "VS Code" },
+        { "name": "Postman" },
+        { "name": "Vercel" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Integrated B.Tech — Computer Science & Engineering",
+      "institution": "PW Institute of Innovation",
+      "period": "2025–2029 (Expected)",
+      "location": "Bangalore, Karnataka, India",
+      "description": "Focused on developing a foundation in computer science, programming, software development and emerging technologies.",
+      "icon": "🎓",
+      "details": [
+        "Class XII: 80.6%",
+        "Class X: 90%"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Student Ambassador",
+      "issuer": "Google",
+      "date": "2026",
+      "desc": "Selected as a Google Student Ambassador for the 2026 cohort, exploring Google's AI ecosystem and engaging student developer communities.",
+      "url": ""
+    },
+    {
+      "name": "GirlScript Summer of Code",
+      "issuer": "GirlScript Foundation",
+      "date": "2026",
+      "desc": "Selected as Contributor & Ambassador for GSSoC 2026 across Open Source and AI/Agents tracks, contributing to Nyay Setu.",
+      "url": "https://drive.google.com/file/d/1BHhOeLiKacfBQ8ACOQG-FId2Ugfsh5Jj/view?usp=sharing"
+    },
+    {
+      "name": "Project Based Learning – FSD",
+      "issuer": "IBM Skills Network",
+      "date": "2026",
+      "desc": "Comprehensive full stack development credential verifying skills in web development, APIs, frontend and backend architectures.",
+      "url": "https://physicswallah.skillsnetwork.site/certificates/3f30f0f6-770a-44bc-b9bb-a0104649cb3b"
+    },
+    {
+      "name": "Write Professional Emails in English",
+      "issuer": "Georgia Institute of Technology",
+      "date": "2026",
+      "desc": "Professional business communication course credential focusing on concise, effective and professional correspondence.",
+      "url": "https://www.coursera.org/account/accomplishments/verify/1XR8UOIHVYN1"
+    }
+  ],
+  "contact": {
+    "heading": "Have an idea? Let's build something meaningful.",
+    "message": "I'm always interested in connecting with developers, exploring interesting ideas, contributing to open source and collaborating on meaningful projects.\n\nWhether you want to discuss technology, share an opportunity or build something together, I'd love to hear from you.",
+    "location": "Bangalore, India",
+    "links": [
+      {
+        "icon": "✉️",
+        "text": "Email — guptasagar0130@gmail.com",
+        "url": "mailto:guptasagar0130@gmail.com"
+      },
+      {
+        "icon": "🐙",
+        "text": "GitHub — @SagarGupta-30",
+        "url": "https://github.com/SagarGupta-30"
+      },
+      {
+        "icon": "💼",
+        "text": "LinkedIn — Sagar Gupta",
+        "url": "https://linkedin.com/in/sagar-gupta-52626a381"
+      },
+      {
+        "icon": "📄",
+        "text": "Resume — View PDF",
+        "url": "https://drive.google.com/file/d/1ov7e9MiuKh1uJsF7sECvNW39PwgSPkOA/view?usp=sharing"
+      }
+    ],
+    "footer": {
+      "quote": "Designed and built with curiosity, creativity and code.",
+      "copyright": "© 2026 Sagar Gupta. All rights reserved."
+    }
+  }
+}
